@@ -1,0 +1,3 @@
+CREATE DATABASE league;
+CREATE USER leagueuser WITH PASSWORD 'league';
+GRANT ALL PRIVILEGES ON DATABASE league TO leagueuser;
